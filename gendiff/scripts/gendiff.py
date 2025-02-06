@@ -1,4 +1,6 @@
 import argparse
+import json
+from pathlib import Path
 
 
 def main():
@@ -17,3 +19,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+def parse_file(file_path):
+    path = Path(file_path).expanduser()
+    with path.open(file_path, 'r') as file:
+        return json.load(file)
+
