@@ -1,7 +1,7 @@
 install:
 	uv sync
 
-brain-games:
+gendiff:
 	uv run gendiff
 
 build:
