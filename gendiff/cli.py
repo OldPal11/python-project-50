@@ -1,6 +1,6 @@
 import argparse
-import json
-from pathlib import Path
+
+from gendiff import generate_diff
 
 
 def main():
@@ -14,14 +14,9 @@ def main():
         )
     args = parser.parse_args()
 
-    print(f'Comparing files: {args.first_file} and {args.second_file}')
+    result = generate_diff(args.first_file, args.second_file)
+    print(result)
 
 
 if __name__ == '__main__':
     main()
-
-def parse_file(file_path):
-    path = Path(file_path).expanduser()
-    with path.open(file_path, 'r') as file:
-        return json.load(file)
-

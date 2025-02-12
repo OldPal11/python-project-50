@@ -38,3 +38,6 @@ If you have any questions or suggestions, feel free to create an issue in the re
 - **Email**: oldpal11.es@gmail.com
 
 ---
+
+## gendiff first comparison video:
+https://asciinema.org/a/fgTJWXNSirC1RfplWclZPBM8e 
