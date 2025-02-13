@@ -15,7 +15,8 @@ dependencies = [
     'prompt>=0.4.1',
     'argparse',
     'pyyaml',
-    'pytest'
+    'pytest',
+    'pytest-cov'
 ]
 
 [project.scripts]
