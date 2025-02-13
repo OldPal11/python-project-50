@@ -3,7 +3,7 @@ from pathlib import Path
 
 from gendiff import generate_diff
 
-BASE_DIR = Path(__file__).parent / "fixtures"
+BASE_DIR = Path(__file__).parent.parent / "fixtures"
 
 def test_generate_diff_json():
     first_file = BASE_DIR / 'file1.json'
