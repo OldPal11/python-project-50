@@ -15,3 +15,6 @@ make lint:
 
 test:
 	uv run pytest --maxfail=5 --disable-warnings
+
+check:
+	lint test

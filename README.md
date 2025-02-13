@@ -1,9 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/OldPal11/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/OldPal11/python-project-50/actions)
 
-[![Maintainability]<a href="https://codeclimate.com/github/OldPal11/python-project-50/maintainability"><img src="https://api.codeclimate.com/v1/badges/8aaeb81f2e2a3d2da97a/maintainability" /></a>]
+<a href="https://codeclimate.com/github/OldPal11/python-project-50/maintainability"><img src="https://api.codeclimate.com/v1/badges/8aaeb81f2e2a3d2da97a/maintainability" /></a>
 
-[[!Test coverage]<a href="https://codeclimate.com/github/OldPal11/python-project-50/test_coverage"><img src="https://api.codeclimate.com/v1/badges/8aaeb81f2e2a3d2da97a/test_coverage" /></a>]
+<a href="https://codeclimate.com/github/OldPal11/python-project-50/test_coverage"><img src="https://api.codeclimate.com/v1/badges/8aaeb81f2e2a3d2da97a/test_coverage" /></a>
 
 ---
 
