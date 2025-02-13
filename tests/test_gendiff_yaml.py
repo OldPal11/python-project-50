@@ -1,10 +1,11 @@
-import pytest
-import os 
+import os
+
 from gendiff import generate_diff
 
-def test_generate_diff():
-    first_file =  os.path.expanduser('~/python-project-50/file1.json')
-    second_file = os.path.expanduser('~/python-project-50/file2.json')
+
+def test_generate_diff_yaml():
+    first_file = os.path.expanduser('~/python-project-50/fixtures/file1.yaml')
+    second_file = os.path.expanduser('~/python-project-50/fixtures/file2.yaml')
     expected = '''{
     - follow: False
       host: hexlet.io
@@ -18,4 +19,3 @@ def test_generate_diff():
         ' '.join(generate_diff(first_file, second_file).strip().split()) 
         == ' '.join(expected.strip().split())
     )
-

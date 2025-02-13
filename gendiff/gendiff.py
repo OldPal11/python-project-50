@@ -1,11 +1,4 @@
-import json
-from pathlib import Path
-
-
-def parse_file(file_path):
-    path = Path(file_path).expanduser()
-    with path.open('r') as file:
-        return json.load(file)
+from gendiff.parser import parse_file
 
 
 def generate_diff(first_file, second_file):

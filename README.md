@@ -45,3 +45,6 @@ If you have any questions or suggestions, feel free to create an issue in the re
 
 ## gendiff first comparison video:
 https://asciinema.org/a/fgTJWXNSirC1RfplWclZPBM8e 
+
+## gendiff yaml recording:
+https://asciinema.org/a/goimBd7en3lk1UW8CwvRCJTKP
