@@ -14,7 +14,8 @@ requires-python = ">=3.13"
 dependencies = [
     'prompt>=0.4.1',
     'argparse',
-    'pyyaml'
+    'pyyaml',
+    'pytest'
 ]
 
 [project.scripts]
