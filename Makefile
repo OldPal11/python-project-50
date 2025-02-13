@@ -18,3 +18,6 @@ test:
 
 check:
 	lint test
+
+lint:
+	uv run ruff check gendiff
