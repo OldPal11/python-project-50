@@ -1,4 +1,5 @@
 import os
+import Path
 
 from gendiff import generate_diff
 
