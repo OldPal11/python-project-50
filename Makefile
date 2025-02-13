@@ -17,4 +17,5 @@ lint:
 	uv run ruff check gendiff
 
 check:
-	lint test
+	make lint 
+	make test
