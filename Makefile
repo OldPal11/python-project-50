@@ -12,3 +12,6 @@ package-install:
 
 make lint:
 	uv run ruff check gendiff
+
+test:
+	uv run pytest --maxfail=5 --disable-warnings
