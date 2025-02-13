@@ -16,8 +16,8 @@ make lint:
 test:
 	uv run pytest --maxfail=5 --disable-warnings
 
-check:
-	lint test
-
 lint:
 	uv run ruff check gendiff
+
+check:
+	lint test
